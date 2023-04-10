@@ -1,0 +1,48 @@
+{
+    "name": "test-application",
+    "version": "1.0.0",
+    "description": "",
+    "main": "front-end/src/index.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack serve --open"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/icons-material": "^5.11.11",
+        "@mui/material": "^5.11.13",
+        "@react-oauth/google": "^0.9.0",
+        "@sentry/browser": "^7.44.2",
+        "aws-amplify": "^5.0.21",
+        "axios": "^1.3.4",
+        "clsx": "^1.2.1",
+        "history": "^4.10.1",
+        "react": "^17.0.1",
+        "react-bootstrap": "^2.7.2",
+        "react-desktop-menus": "^1.0.8",
+        "react-dom": "^17.0.1",
+        "react-icons": "^4.8.0",
+        "react-redux": "^7.2.2",
+        "react-router-dom": "^5.3.4",
+        "react-swipeable-views": "^0.14.0",
+        "redux": "^4.0.5",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.12.11",
+        "@babel/preset-react": "^7.12.10",
+        "babel-loader": "^8.3.0",
+        "config": "^3.3.3",
+        "css-loader": "^5.0.1",
+        "html-webpack-plugin": "^4.5.2",
+        "path": "^0.12.7",
+        "path-to-regexp": "^1.7.0",
+        "webpack": "^5.76.2",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.12.0"
+    }
+}
